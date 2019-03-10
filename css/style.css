@@ -13,7 +13,7 @@ body {
 }
 
 .site_header {
-	background: linear-gradient(to bottom,#0d47a1 50%, #1565c0 80%);
+	background: linear-gradient(to bottom,#0d47a1 50%, #1565c0 70%,#fff 50%);
 	min-height: 100vh;
 }
 .header {
@@ -69,17 +69,54 @@ body {
 
 
 .front_content {
-	margin:5rem auto;
+	margin:auto;
 	max-width: 100rem;
 	display: flex;
+	padding-top: 10rem;
 }
 .front_content_text {
 	flex: 0 1 50%;
 	display: flex;
 	flex-direction: column;
-	
+
 }
 
+.front_content_text h1 {
+	font-size: 3.5rem;
+	color: #fff;
+	font-family: 'Righteous', cursive;
+	font-weight: 300;
+}
+.front_content_text span {
+	display: block;
+}
+.front_content_desc  {
+	font-size: 1.5rem;
+	color:#fff;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-family: 'Lato', sans-serif;
+
+}
+.email_box form {
+	display: inline-block;
+	background: #fff;
+	padding: 1rem;
+	border-radius: 3px;
+	box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+}
+.email_box input,.email_box button,.btn {
+	padding: 1rem;
+	outline: none;
+	border:none;
+	font-size: 1.7rem;
+}
+.email_box button {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	background:green;
+	
+}
 .front_content_image {
 	flex: 0 1 50%;
 	box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
@@ -88,6 +125,47 @@ body {
 	width: 100%;
 }
 
+.front_boxes {
+	padding-top: 10rem;
+	display: flex;
+	margin: auto;
+	max-width: 100rem;
+}
+.box {
+	border-radius: 4px;
+	padding: 2rem;
+	flex: 0 1 50%;
+	box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+
+}
+.box h1 {
+	font-weight: 500;
+	font-family: 'Righteous', cursive;
+	color: #fff;
+	font-size: 3rem;
+}
+.box h1 span {
+	display: block;
+}
+.box p {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 1.5rem;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.first {
+	margin-right: 5%;
+	background-image: linear-gradient(to bottom,#2196f3ba 50%, #2196f3ad 70%),url(../img/dashboard.jpg);
+	background-size: cover;
+	background-position: top;
+}
+.second {
+	background-image: linear-gradient(to bottom,#cddc39d9 50%, #cddc39d9 70%),url(../img/dashboard.jpg);
+	background-size: cover;
+	background-position: top;
+}
 
 
 

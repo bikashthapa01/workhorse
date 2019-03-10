@@ -9,5 +9,59 @@ html {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.site_header {
+	background: linear-gradient(to bottom,#0d47a1 50%, #1565c0 80%);
+	min-height: 100vh;
+}
+.header {
+	margin: auto;
+	max-width: 100rem;
+	display: flex;
+	align-items: center;
+}
+.brand {
+	padding: 1rem;
+	flex: 0 1 30%;
+}
+
+.brand h1 {
+	color: #fff;
+	font-family: 'Righteous', cursive;
+	font-size: 2.5rem;
+	letter-spacing: .5rem;
+	text-transform: uppercase;
+	margin: 0;
+}
+.brand span {
+	font-weight: 300;
+}
+
+.navigation {
+	padding: 3rem;
+	flex: 0 1 70%;
+}
+
+
+.navigation_list {
+	list-style-type: none;
+	float: right;
+}
+
+.navigation_list_item {
+	display: inline;
+	padding: 1rem;
+	font-size: 1.7rem;
+	color: #fff;
+
+}
+
+.navigation_list_item a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.7rem;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
 }

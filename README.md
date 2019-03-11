@@ -2,7 +2,7 @@
 
 A Responsive Web Design Challenge (Only Homepage). (inspired by Design of  Md. Shahadat Hussain for DroitLab )
 
-#(DEMO)[https://bikashthapa.me/workhorse]
+#[DEMO](https://bikashthapa.me/workhorse)
 
 # Start Date: 3-5-19
 

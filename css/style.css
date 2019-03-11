@@ -42,6 +42,7 @@ body {
 .navigation {
 	padding: 3rem;
 	flex: 0 1 70%;
+	transition: 1s all;
 }
 
 
@@ -56,7 +57,19 @@ body {
 	font-size: 1.7rem;
 	color: #fff;
 
+
 }
+
+.navigation_list_item:hover {
+	background: #fff;
+	color: #000;
+	border-radius: 3px;
+}
+
+.navigation_list_item:hover  a {
+	color: #000;
+}
+
 
 .navigation_list_item a {
 	text-decoration: none;
@@ -64,6 +77,37 @@ body {
 	font-size: 1.7rem;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
+}
+.dropdown {
+	position: relative;
+	transition: 1s all;
+
+}
+
+.drop_list {
+	padding:0.3333rem;
+	list-style-type: none;
+	position: absolute;
+	top: 4.5rem;
+    left: 0rem;
+    background: #fff;
+    display: none;
+    transition: 1s all;
+
+}
+.dropdown:hover > .drop_list {
+	display: block;
+}
+.drop_list_item {
+	padding:1rem;
+}
+.drop_list_item:hover {
+	background:#ccc;
+}
+.drop_list_item a {
+	text-decoration: none;
+	color: #000;
+	font-family: inherit;
 }
 
 
@@ -168,7 +212,25 @@ body {
 	background-size: cover;
 	background-position: top;
 }
+.btn {
+	border-radius: 3px;
+	transition: 1s background,color;
+}
+.btn:hover {
+	background: #fff;
+	color: #000;
+}
+.box_btn {
+    color: #2196F3;
+    background: #fff;
+	font-family: 'Lato', sans-serif;
+}
 
+.box_btn_s {
+	background: transparent;
+	border:1px solid #fff;
+	color: #fff;
+}
 
 
 

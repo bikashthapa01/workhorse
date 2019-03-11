@@ -13,7 +13,7 @@ body {
 }
 
 .site_header {
-	background: linear-gradient(to bottom,#0d47a1 50%, #1565c0 70%,#fff 50%);
+	background: linear-gradient(to bottom,#0d47a1 50%, #1565c0 80%,#fff 50%);
 	min-height: 100vh;
 }
 .header {
@@ -150,19 +150,21 @@ body {
 .box p {
 	font-family: 'Lato', sans-serif;
 	color: #fff;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	margin-top: .5rem;
 	margin-bottom: .5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .first {
 	margin-right: 5%;
-	background-image: linear-gradient(to bottom,#2196f3ba 50%, #2196f3ad 70%),url(../img/dashboard.jpg);
+	background-image: linear-gradient(to bottom,#2196f3e0 50%, #2196f3d9 70%),url(../img/dashboard.jpg);
 	background-size: cover;
 	background-position: top;
 }
 .second {
-	background-image: linear-gradient(to bottom,#cddc39d9 50%, #cddc39d9 70%),url(../img/dashboard.jpg);
+	background-image: linear-gradient(to bottom,#a2af20e0 50%, #a2af20e0 70%),url(../img/dashboard.jpg);
 	background-size: cover;
 	background-position: top;
 }

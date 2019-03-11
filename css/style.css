@@ -243,14 +243,56 @@ body {
 
 
 
+/* Hold Your Breathe for Content Styles */
 
+.video_content {
+	padding-top:5rem; 
+	margin: auto;
+	max-width: 100rem;
+	background-image: linear-gradient(to bottom,#fff 50%, #ddd 50%);
+}
 
+.video_content_title {
+	text-align: center;
+	font-weight: 500;
+	font-family: 'Righteous', cursive;
+	font-size: 4rem;
+	padding: 2rem;
 
+}
+.video_content_title span {
+	display: block;
+}
 
+.video_content_title small {
+	font-weight: 300;
+	color: #ccc;
+}
 
+#videoid {
+	border-radius: 4px;
+	box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+	
+}
+.video_on {
+	position: relative;
+}
 
-
-
+.playBtn {
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    border: none;
+    background: #fff;
+    text-align: center;
+    outline: none;
+    font-size: 5rem;
+    color: #009688;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 
 

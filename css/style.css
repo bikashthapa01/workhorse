@@ -388,6 +388,12 @@ body {
 }
 
 
+/* Behold the footer makeup */
+
+.main_footer {
+	margin: auto;
+	max-width: 100rem;
+}
 
 
 
